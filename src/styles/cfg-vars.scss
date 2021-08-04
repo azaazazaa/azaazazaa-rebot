@@ -1,0 +1,55 @@
+$DEV_MODE: $NODE_ENV == development;
+
+
+$wt-family-base: 'OpenSans', sans-serif;
+$wt-family-head: 'Muller', sans-serif; 
+//==
+//== Color palette
+//== ======================================= ==//
+
+
+$red: #FF4E62;
+$dark-red: #F14256;
+$yellow: #F4AD39;
+$purple: #2B1538;
+$light_blue: #683EEF;
+$blue: #004FC6;
+$blue-main: #3949E7;
+$green: #1CCC78;
+$grey: #D4D6D7;
+$black: #0E0E0E;
+$white: #FFFFFF;
+
+//==
+//== Main color vars
+//== ======================================= ==//
+
+$link: $blue-main;
+$header: $purple;
+$common_text: #222222;
+$btn_font-color: $white;
+$btn_secondary_font-color: $blue;
+$btn_default-color: $red;
+$btn_hover-color: $dark-red;
+
+$success: $green;
+$error: $red;
+
+$header_color: $white;
+
+
+/* $extra_btn_hover: $dark_blue;
+
+$main_btn: $orange;
+$header_color: $white;
+$common_text: $dark;
+$table_color: $grey;
+$status_succes: $light_green;
+$status_warning: $light_pink;
+$border_input: $grey;
+$labels: $black;
+$back_layout: $light_blue; */
+
+//==
+//== Fonts
+//== ======================================= ==//

@@ -1,0 +1,59 @@
+/* Regular */
+
+@font-face {
+  font-family: 'Muller';
+  src: local('Muller'),
+       url('../assets/fonts/Muller-Regular.ttf') format('truetype'),
+       url('../assets/fonts/Muller-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../assets/fonts/Muller-Regular.woff') format('woff'); 
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* ExtraBold */
+
+@font-face {
+  font-family: 'Muller';
+  src: local('Muller'),
+       url('../assets/fonts/Muller-ExtraBold.ttf') format('truetype'),
+       url('../assets/fonts/Muller-ExtraBold.eot?#iefix') format('embedded-opentype'),
+       url('../assets/fonts/Muller-ExtraBold.woff') format('woff'); 
+  font-weight: 800;
+  font-style: normal;
+}
+
+/* Bold */
+
+@font-face {
+  font-family: 'Muller';
+  src: local('Muller'),
+       url('../assets/fonts/Muller-Bold.ttf') format('truetype'),
+       url('../assets/fonts/Muller-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../assets/fonts/Muller-Bold.woff') format('woff'); 
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Regular */
+
+@font-face {
+  font-family: 'OpenSans';
+  src: local('OpenSans'),
+       url('../assets/fonts/OpenSans-Regular.ttf') format('truetype'),
+       url('../assets/fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../assets/fonts/OpenSans-Regular.woff') format('woff'); 
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* SemiBold */
+
+@font-face {
+  font-family: 'OpenSans';
+  src: local('OpenSans'),
+       url('../assets/fonts/OpenSans-SemiBold.ttf') format('truetype'),
+       url('../assets/fonts/OpenSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+       url('../assets/fonts/OpenSans-SemiBold.woff') format('woff'); 
+  font-weight: 600;
+  font-style: normal;
+}

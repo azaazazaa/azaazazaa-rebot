@@ -1,0 +1,29 @@
+.input{
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  background: #FFFFFF;
+  border: 1px solid #D4D6D7;
+  box-sizing: border-box;
+  border-radius: 2px;
+  padding: 10px 15px;
+  &_invalid{
+    border: 1px solid $error!important;
+  }
+  &_success{
+    border: 1px solid $success!important;
+  }
+  &:hover{
+    border: 1px solid #6A6A6A;
+  }
+  &:focus{
+    outline:none;
+    border: 1px solid #004FC6!important;
+  }
+  &:disabled{
+    background: #F4F4F4;
+    border: 1px solid #D4D6D7;
+  }
+}

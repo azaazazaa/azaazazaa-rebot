@@ -1,0 +1,54 @@
+@import './normalize/normalize';
+@import './fonts';
+
+@import './components/btns';
+@import './components/checkbox';
+@import './components/radiobtn';
+@import './components/input';
+
+
+h1{
+  font-family: $wt-family-head;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 40px;
+  color: $header;
+}
+
+h2{
+  font-family: $wt-family-head;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: $header;
+}
+
+h3{
+  font-family: $wt-family-head;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: $header;
+}
+
+a{
+  font-family: $wt-family-base;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: $link;
+  text-decoration: none;
+}
+
+p{
+  font-family: $wt-family-base;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #222222
+}
